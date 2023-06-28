@@ -1,6 +1,9 @@
 # Smart Home on Synology NAS Installation Guide  
 ใน Repository นี้จะแนะนำการติดตั้ง Software สำหรับระบบ Smart Home บน Synology NAS ด้วยระบบ Docker Container
 
+
+<img src="https://raw.githubusercontent.com/maxmacstn/Synology-smarthome-container-guide/main/images/docker-page.png" width="700">
+
 ## Docker Container คืออะไร
 Docker คือแพลตฟอร์ม Software สำหรับการติดตั้ง Application ลงไป Container คล้ายกับการใช้ VM แต่ว่า Docker จะรันแค่ตัว Application ไม่ใช่ทั้ง OS เหมือน VM
 
@@ -181,6 +184,8 @@ Docker คือแพลตฟอร์ม Software สำหรับการ
    </details>
 
 ## เพิ่ม Shortcut ไปที่ Sidebar ของ Home Assistant
+
+<img src="https://raw.githubusercontent.com/maxmacstn/Synology-smarthome-container-guide/main/images/ha-sidebar.png" width="400">
 
 เพิ่มส่วนนี้ไปที่ด้านล่างของไฟล์ `configuration.yaml` ของ Home Assistant
 
