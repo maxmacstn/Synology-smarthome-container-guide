@@ -77,7 +77,7 @@ Docker คือแพลตฟอร์ม Software สำหรับการ
       |--------------------------------------|-----------------------|
       | /`Your NAS Folder`/zigbee2mqtt       | /app/data             |
    
-   * แก้ไข Z2M Configuration file ใน  `/Your NAS Folder/zigbee2mqtt/configuration.yaml` 
+   * สร้างไฟล์ **configuration.yaml** ในโฟลเดอร์  `/Your NAS Folder/zigbee2mqtt/` 
    ```
    # Home Assistant integration (MQTT discovery)
    homeassistant: true
